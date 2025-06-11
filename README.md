@@ -1,12 +1,30 @@
-# React + Vite
+# 📝 TodoList - Lista de Tarefas com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de **Lista de Tarefas** feito com **React** e **CSS Modules**. Nele, é possível adicionar, marcar como concluída e remover tarefas.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- CSS Modules
+- Vite
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Adicionar uma nova tarefa
+- Marcar tarefas como concluídas (riscar o texto)
+- Remover tarefas da lista
+
+## 💻 Demonstração
+ 
+📂 [Repositório no GitHub](https://github.com/SeilaniF/TodoList)
+
+## 📷 Imagem do projeto
+
+![TodoList Preview](./caminho-da-sua-imagem.png)
+
+## 📦 Como rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/SeilaniF/TodoList.git
