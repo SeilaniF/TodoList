@@ -1,0 +1,89 @@
+/* container principal */
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #faedf1; /* rosa bem claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    color: #c2185b; /* rosa escuro */
+    margin-bottom: 15px;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f8bbd0;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #fff0f5;
+    color: #880e4f;
+}
+
+.input:focus {
+    border-color: #ec407a;
+}
+
+.button {
+    background: #ec407a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.button:hover {
+    background: #d81b60;
+}
+
+.taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.taskItem {
+    background: #fde7ef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    transition: background 0.3s;
+    color: #6a1b9a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskItem:hover {
+    background: #f8bbd0;
+}
+
+.removeButton {
+    background-color: #f06292;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+.removeButton:hover {
+    background-color: #d81b60;
+}
