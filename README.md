@@ -14,14 +14,6 @@ Este é um projeto simples de **Lista de Tarefas** feito com **React** e **CSS M
 - Marcar tarefas como concluídas (riscar o texto)
 - Remover tarefas da lista
 
-## 💻 Demonstração
- 
-📂 [Repositório no GitHub](https://github.com/SeilaniF/TodoList)
-
-## 📷 Imagem do projeto
-
-![TodoList Preview](./caminho-da-sua-imagem.png)
-
 ## 📦 Como rodar localmente
 
 1. Clone o repositório:
